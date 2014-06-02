@@ -1,0 +1,33 @@
+/* */
+.header {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+/* Logo */
+.logotype {
+  background-image: url('../images/monospace.svg');
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* Isotope */
+#isotope {
+  margin: 50px 0px 100px 15px;
+}
+#isotope .post {
+  overflow: hidden;
+  padding-left: 0px;
+}
+#isotope .thumbnail {
+  padding: 0px;
+  background-color: #222;
+  border: 0px;
+  border-radius: 0px;
+}
+#isotope .thumbnail img {
+  width: 100%;
+}
+#isotope .item.w2 {
+  width: 50%;
+}
