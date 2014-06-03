@@ -1,4 +1,24 @@
 /* */
+/* Palette */
+.inverse {
+  background-color: black;
+  color: white;
+}
+/* Mixins */
+.centered {
+  text-align: center;
+}
+.btn {
+  background: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-weight: 400;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+/* Styles */
 .header {
   padding-top: 100px;
   padding-bottom: 60px;

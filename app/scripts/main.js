@@ -19,4 +19,13 @@ $(document).ready(function() {
 	});
 
 
+	$container.infinitescroll({
+		navSelector: ".pagination",
+		nextSelector: ".pagination a:last-child",
+		itemSelector: "article",
+	  }, function (newElements) {
+	    container.isotope('appended', $(newElements));
+	  });
+
+
 });
