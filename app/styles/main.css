@@ -8,11 +8,18 @@
 .centered {
   text-align: center;
 }
+.padded {
+  padding: 50px;
+}
 .btn {
   background: none;
   border: 1px solid black;
   border-radius: 20px;
   font-weight: 400;
+}
+.btn a {
+  color: #333;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: black;
@@ -22,6 +29,9 @@
 .header {
   padding-top: 100px;
   padding-bottom: 60px;
+}
+a {
+  text-decoration: none;
 }
 /* Logo */
 .logotype {
@@ -50,4 +60,22 @@
 }
 #isotope .item.w2 {
   width: 50%;
+}
+/* Pagination */
+.pagination a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  background: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-weight: 400;
+}
+.pagination a a {
+  color: #333;
+  text-decoration: none;
+}
+.pagination a:hover {
+  background-color: black;
+  color: white;
 }
