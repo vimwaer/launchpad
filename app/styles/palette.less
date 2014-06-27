@@ -1,0 +1,40 @@
+/*
+
+PALETTE
+
+*/
+
+/* BASE */
+@red: #f16a54;
+
+/* FILETYPES */
+@psd: #0056a3;
+
+/* THEME */
+@primary: @red;
+
+/* MIXINS */
+.light {
+	background-color:white;
+	color:#333;
+}
+
+.dark {
+	background-color:#222;
+	color:white;
+	
+	.logotype {
+		background-image:url('../images/monospace_white.svg');
+	}
+
+
+	.btn {
+		.light;
+	}
+}
+
+
+.primary {
+	background-color:@primary;
+	color:white;
+}
